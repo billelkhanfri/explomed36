@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const navItems = [
   { label: "Accueil", href: "/" },
@@ -21,12 +22,22 @@ export default function Header() {
   return (
     <header className="bg-[#0B1F2E] text-[#EDE6D6] sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-5">
-        <Link
+     <Link
           href="/"
-          className="font-display text-xl font-bold tracking-wide"
           onClick={() => setMenuOpen(false)}
+          className="flex items-center gap-3"
         >
-          Explomed<span className="text-[#E85D3D]">36</span>
+          <Image
+            src="/images/icon.png"
+            alt="Explomed36"
+            width={40}
+            height={40}
+            className="h-10 w-auto"
+            priority
+          />
+          <span className="font-display text-xl font-bold tracking-wide">
+            Explomed<span className="text-[#E85D3D]">36</span>
+          </span>
         </Link>
 
         {/* Nav desktop */}

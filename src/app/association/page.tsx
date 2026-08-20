@@ -35,7 +35,7 @@ export default function AssociationPage() {
         </div>
         <div className="relative aspect-[4/5]">
           <Image
-            src="https://picsum.photos/seed/explomed-assoc/600/750"
+            src="/images/IMG_1733.JPG"
             alt="Membres de l'association Explomed36 en sortie"
             fill
             className="object-cover"
@@ -81,7 +81,7 @@ export default function AssociationPage() {
         <div className="grid grid-cols-3 gap-2">
           <div className="relative aspect-square">
             <Image
-              src="https://picsum.photos/seed/assoc-1/400/400"
+            src="/images/IMG_1734.JPG"
               alt="Sortie plongée du club"
               fill
               className="object-cover"
@@ -89,7 +89,7 @@ export default function AssociationPage() {
           </div>
           <div className="relative aspect-square">
             <Image
-              src="https://picsum.photos/seed/assoc-2/400/400"
+            src="/images/IMG_1735.JPG"
               alt="Formation encadrée par un moniteur"
               fill
               className="object-cover"
@@ -97,7 +97,7 @@ export default function AssociationPage() {
           </div>
           <div className="relative aspect-square">
             <Image
-              src="https://picsum.photos/seed/assoc-3/400/400"
+            src="/images/IMG_1736.JPG"
               alt="Équipe Explomed36"
               fill
               className="object-cover"

@@ -6,12 +6,12 @@ export const metadata = {
 };
 
 const photos = [
-  { id: 1, alt: "Plongeurs explorant les fonds marins d'El Kala" },
-  { id: 2, alt: "Baptême de plongée encadré par un moniteur" },
-  { id: 3, alt: "Formation de plongée scientifique en mer" },
-  { id: 4, alt: "Faune marine observée lors d'une sortie" },
-  { id: 5, alt: "Groupe de plongeurs de l'association" },
-  { id: 6, alt: "Équipement de plongée scientifique" },
+  { id: 1725, alt: "Plongeurs explorant les fonds marins d'El Kala" },
+  { id: 1726, alt: "Baptême de plongée encadré par un moniteur" },
+  { id: 1718, alt: "Formation de plongée scientifique en mer" },
+  { id: 1719, alt: "Faune marine observée lors d'une sortie" },
+  { id: 1728, alt: "Groupe de plongeurs de l'association" },
+  { id: 1717, alt: "Équipement de plongée scientifique" },
 ];
 
 export default function GaleriePage() {
@@ -26,7 +26,8 @@ export default function GaleriePage() {
         {photos.map((photo) => (
           <div key={photo.id} className="relative aspect-square">
             <Image
-              src={`https://picsum.photos/seed/${photo.id}/600/600`}
+              src={`/images/IMG_${photo.id}.JPG`}
+
               alt={photo.alt}
               fill
               className="object-cover"

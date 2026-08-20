@@ -132,7 +132,7 @@ export default function HomePage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 h-[420px]">
           <div className="relative col-span-2 row-span-2">
             <Image
-              src="https://picsum.photos/seed/explomed-1/800/800"
+              src="/images/IMG_1723.JPG"
               alt="Sortie de plongée en Méditerranée"
               fill
               className="object-cover"
@@ -140,7 +140,7 @@ export default function HomePage() {
           </div>
           <div className="relative col-span-2 row-span-1">
             <Image
-              src="https://picsum.photos/seed/explomed-2/800/400"
+              src="/images/IMG_1722.JPG"
               alt="Formation de plongée scientifique"
               fill
               className="object-cover"
@@ -148,7 +148,7 @@ export default function HomePage() {
           </div>
           <div className="relative col-span-1 row-span-1">
             <Image
-              src="https://picsum.photos/seed/explomed-3/400/400"
+              src="/images/IMG_1721.JPG"
               alt="Baptême de plongée encadré"
               fill
               className="object-cover"
@@ -156,7 +156,7 @@ export default function HomePage() {
           </div>
           <div className="relative col-span-1 row-span-1">
             <Image
-              src="https://picsum.photos/seed/explomed-4/400/400"
+              src="/images/IMG_1724.JPG"
               alt="Équipe Explomed36"
               fill
               className="object-cover"
