@@ -58,27 +58,27 @@ export default function Header() {
         </nav>
 
         {/* Bouton hamburger, mobile uniquement */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden flex flex-col gap-1.5 w-7"
-          aria-label="Ouvrir le menu"
-        >
-          <span
-            className={`h-0.5 bg-[#EDE6D6] transition-transform ${
-              menuOpen ? "rotate-45 translate-y-2" : ""
-            }`}
-          />
-          <span
-            className={`h-0.5 bg-[#EDE6D6] transition-opacity ${
-              menuOpen ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`h-0.5 bg-[#EDE6D6] transition-transform ${
-              menuOpen ? "-rotate-45 -translate-y-2" : ""
-            }`}
-          />
-        </button>
+<button
+  onClick={() => setMenuOpen(!menuOpen)}
+  className="md:hidden flex flex-col gap-1.5 w-7"
+  aria-label="Ouvrir le menu"
+>
+  <span
+    className={`block w-full h-0.5 bg-[#EDE6D6] transition-transform ${
+      menuOpen ? "rotate-45 translate-y-2" : ""
+    }`}
+  />
+  <span
+    className={`block w-full h-0.5 bg-[#EDE6D6] transition-opacity ${
+      menuOpen ? "opacity-0" : ""
+    }`}
+  />
+  <span
+    className={`block w-full h-0.5 bg-[#EDE6D6] transition-transform ${
+      menuOpen ? "-rotate-45 -translate-y-2" : ""
+    }`}
+  />
+</button>
       </div>
 
       {/* Nav mobile, dépliée */}
